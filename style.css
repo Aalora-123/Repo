@@ -1,0 +1,185 @@
+
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+    
+  
+background-color: #ccc;
+
+  
+}
+header{
+
+    background-image: url(cloud.png);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ max-width: 100%;
+  display: block;
+  max-height:350px;
+  margin-top: 30px;
+}
+
+
+
+.search-bar {
+  padding: 2rem;
+  position: relative;
+  transition: transform 0.3s ease;
+  
+}
+
+.search-bar:hover {
+  transform: scale(1.02);
+}
+
+.search-bar input[type="text"] {
+  padding-right: 3rem; /* space for clear button */
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.search-bar input[type="text"]:hover,
+.search-bar input[type="text"]:focus {
+  border-color: #4b7aaa;
+  outline: none;
+
+}
+
+#clearSearchBtn {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  display: none;
+  color: #000;
+  cursor: pointer;
+}
+
+#clearSearchBtn:hover {
+  color: #dc3545;
+}
+
+.card {
+  transition: transform 0.3s;
+  background-color:transparent;
+  
+ 
+  
+  
+  
+}
+
+.card:hover {
+  transform: scale(1.02);
+  background-color: rgb(231, 231, 238);
+  /* color:white; */
+}
+
+.site-image {
+  width: 100px;
+  height: 70px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+  
+}
+.row{
+  background-color:#ccc;
+  
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  display: none;
+  z-index: 99;
+}
+footer {
+  /* background-image: url('nice.jfif');  */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  min-height: 100px; /* Adjust as needed */
+}
+
+img {
+  
+  max-width: 20%;
+ max-height:20% ;
+  float: left;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+span{
+  float: right;
+  color: rgb(206, 42, 42);
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+
+.heading-row {
+  display: flex;
+  justify-content: space-between; /* Or use space-around / center / flex-start etc. */
+   align-items: center;
+           
+  margin-top: 0px;
+  gap: 10px;  
+  color: red;   
+                  /* Optional spacing between h3s */
+}
+h5{
+  display: grid;
+  float: left;
+  
+ 
+}
+
+
+/* h1,p{  */
+  /* color: white; */
+  /* font-weight: bold; */
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* display: inline-block; */
+  /* background: linear-gradient(90deg, silver, white, silver); */
+  /* background-size: 200%; */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  /* animation: shine 5s infinite linear; */
+/* } */
+/*  */
+/* @keyframes shine { */
+  /* 0% { */
+    /* background-position: -200%; */
+  /* } */
+  /* 100% { */
+    /* background-position: 200%; */
+  /* } */
+/* } */
+
+
